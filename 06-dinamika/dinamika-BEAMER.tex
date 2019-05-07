@@ -41,7 +41,7 @@ potrebe raditi razliku.
 
 \begin{figure}
 \begin{centering}
-%\includegraphics[width=0.8\paperwidth]{slika-mat-vs-kont}
+\includegraphics[width=0.8\paperwidth]{figs/slika-mat-vs-kont}
 \par\end{centering}
 \caption{a) Materijalni volumen tekućine u 4 vremenska trenutka: pratimo točno
 određeni volumen tekućine pri istjecanju iz rezervoara. b) Interesira
@@ -93,7 +93,7 @@ Q=\lim_{\Delta t\rightarrow0}\frac{\Delta V}{\Delta t}=\lim_{\Delta t\rightarrow
 \begin{itemize}
 \item u najopćenitijem slučaju kad brzina nije okomita na plohu i nije ista
 u svim točkama plohe ukupni volumni protok kroz plohu $\varOmega$
-moľemo izračunati integracijom
+možemo izračunati integracijom
 \[
 Q_{_{\varOmega}}\equiv\int\limits _{\;\varOmega}\!\!\!\!\!\int\vec{v}\cdot d\vec{S}\quad\quad[\frac{m^{3}}{s}]
 \]
@@ -106,7 +106,7 @@ brzina tečenja kroz cijev
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Jednadľba kontinuiteta za nestlačivi fluid}
+\begin{frame}{Jednadžba kontinuiteta za nestlačivi fluid}
 
 \begin{figure}
 \includegraphics[scale=1.35]{figs/jdba-kont-cijev}
@@ -255,13 +255,13 @@ Rezultat
 \[
 dp+\rho gdz+\frac{1}{2}\rho d(v^{2})=0
 \]
-je projekcija Eulerove jednadľbe na strujnicu.
+je projekcija Eulerove jednadžbe na strujnicu.
 \end{frame}
 
-\begin{frame}{Bernoullijeva jednadľba}
+\begin{frame}{Bernoullijeva jednadžba}
 
-Dobiveni izraz koji se sastoji samo od totalnih diferencijala moľe
-se lako integrirati duľ strujnice, od neke točke $A$ do točke $B$
+Dobiveni izraz koji se sastoji samo od totalnih diferencijala može
+se lako integrirati duž strujnice, od neke točke $A$ do točke $B$
 \[
 \int\limits _{A}^{B}dp+\int\limits _{A}^{B}\rho g\,dz+\frac{1}{2}\int\limits _{A}^{B}\rho\,d(v^{2})=0
 \]
@@ -275,35 +275,35 @@ vrijediti
 \[
 p+\rho gz+\frac{1}{2}\rho v^{2}=konst.
 \]
-za sve točke duľ strujnice i to je \textbf{\textcolor{red}{Bernoullijeva
-jednadľba}}.
+za sve točke duž strujnice i to je \textbf{\textcolor{red}{Bernoullijeva
+jednadžba}}.
 \end{frame}
 
-\begin{frame}{Ograničenja u primjeni Bernoullijeve jednadľbe}
+\begin{frame}{Ograničenja u primjeni Bernoullijeve jednadžbe}
 
-\begin{alertblock}{Ograničenja u primjeni Bernoullijeve jednadľbe}
+\begin{alertblock}{Ograničenja u primjeni Bernoullijeve jednadžbe}
 Zbog pojednostavljenja i aproksimacija koje su načinjene tijekom
-izvoda primjena Bernoullijeve jednadľbe je ograničena na slučajeve
+izvoda primjena Bernoullijeve jednadžbe je ograničena na slučajeve
 kad su istovremeno ispunjeni svi ovi ograničavajući uvjeti 
 
 \begin{itemize}
 \item neviskozno tečenje, to jest tečenje sa zanemarivim unutarnjim trenjem 
 \item stacionarno tečenje ($\frac{\partial\vec{v}}{\partial t}=0$) 
 \item nestlačivi fluid ($\rho=konst.$) 
-\item tečenje duľ strujnice. 
+\item tečenje duž strujnice. 
 \end{itemize}
 
 \end{alertblock}
-Napomena: U specijalnom slučaju takozvanog bezvrtloľnog polja brzina
+Napomena: U specijalnom slučaju takozvanog bezvrtložnog polja brzina
 (kad je ispunjen uvjet $\vec{\nabla}\times\vec{v}=0$) valjanost Bernoullijeve
-jednadľbe nije ograničena samo duľ strujnice.
+jednadžbe nije ograničena samo duž strujnice.
 \end{frame}
 
 \section{Bernoullijeva jednadžba}
 
-\begin{frame}{Tlačni oblik Bernoullijeve jednadľbe}
+\begin{frame}{Tlačni oblik Bernoullijeve jednadžbe}
 
-U fizici je uobičajen zapis Bernoullijeve jednadľbe
+U fizici je uobičajen zapis Bernoullijeve jednadžbe
 \[
 p+\rho gz+\frac{1}{2}\rho v^{2}=konst.
 \]
@@ -375,7 +375,7 @@ volumenu tekućine}}.
 \begin{frame}{Specifična energija po jedinici volumena tekućine}
 
 \begin{alertblock}{Fizikalna interpretacija}
- Članovi u tlačnom obliku Bernoullijeve jednadľbe predstavljaju \textbf{specifičnu
+ Članovi u tlačnom obliku Bernoullijeve jednadžbe predstavljaju \textbf{specifičnu
 energiju po jedinici volumena tekućine}.
 \end{alertblock}
 
@@ -384,7 +384,7 @@ mjere u paskalima, jer je
 \[
 Pa=\frac{N}{m^{2}}=\frac{N}{m^{2}}\cdot\frac{m}{m}=\frac{Nm}{m^{3}}=\frac{J}{m^{3}}.
 \]
-\emph{Paskal} moľemo interpretirati kao \emph{dľul po kubnom metru},
+\emph{Paskal} možemo interpretirati kao \emph{džul po kubnom metru},
 tj. kao mjeru za \textcolor{black}{\emph{energiju po jediničnom volumenu}}.
 \end{frame}
 
@@ -414,7 +414,7 @@ da se odnosi na jedinični volumen obično se podrazumijeva da se radi
 o \emph{energiji po jediničnoj masi}
 \item jednostavno je Bernoullijevu jednadžbu iz tlačnog oblika preoblikovati
 tako da pojedini članovi predstavljaju \emph{specifičnu energiju po
-jedinici mase}: jednadľbu treba podijeliti s gustoćom tekućine $\rho$
+jedinici mase}: jednadžbu treba podijeliti s gustoćom tekućine $\rho$
 \[
 p+\rho gz+\frac{1}{2}v^{2}=konst.\quad/:\rho
 \]
@@ -432,11 +432,11 @@ postaje energija po jedinici mase
 \[
 \frac{E}{V}\;:\;\rho=\frac{E}{\rho V}=\frac{E}{m}
 \]
-\item izraľeno mjernim jedinicama
+\item izraženo mjernim jedinicama
 \[
 \frac{J}{m^{3}}\;:\;\frac{kg}{m^{3}}=\frac{J}{m^{3}}\:\frac{m^{3}}{kg}=\frac{J}{kg}
 \]
-\item ovaj oblik Bernoullijeve jednadľbe se u praksi relativno rijetko koristi
+\item ovaj oblik Bernoullijeve jednadžbe se u praksi relativno rijetko koristi
 i nema neko posebno ime
 \end{itemize}
 \end{frame}
@@ -444,7 +444,7 @@ i nema neko posebno ime
 \begin{frame}{Visinski oblik Bernoullijeve jednadžbe}
 
 \begin{itemize}
-\item osim sa gustoćom $\rho$ tlačni oblik Bernoullijeve jednadľbe moľe
+\item osim sa gustoćom $\rho$ tlačni oblik Bernoullijeve jednadžbe može
 se podijeliti i s ubrzanjem slobodnog pada $g$ 
 \[
 p+\rho gz+\frac{1}{2}\rho v^{2}=konst.\quad/:(\rho g)
@@ -467,8 +467,8 @@ i sa $g$ slijedi
 \frac{E}{V}\;:\;\rho\;:\;g=\frac{E}{\rho V}\;:\;g=\frac{E}{m}\;:\;g=\frac{E}{mg}=\frac{E}{G}
 \]
 \item nameće se očigledna interpretacija da se u ovom slučaju radi o \textcolor{red}{\emph{specifičnoj
-energiji po jedinici teľine tekućine}}
-\item lako je pokazati da je metar ekvivalentan dľulu po njutnu
+energiji po jedinici težine tekućine}}
+\item lako je pokazati da je metar ekvivalentan džulu po njutnu
 \[
 m=m\cdot\frac{N}{N}=\frac{Nm}{N}=\frac{J}{N}
 \]
@@ -499,7 +499,7 @@ total head)}
 
 \begin{itemize}
 \item tlačna visina u metrima može se interpretirati kao visina stupca tekućine
-gustoće $\rho$ u polju sile teľe jakosti $g$ uslijed kojeg nastaje
+gustoće $\rho$ u polju sile teže jakosti $g$ uslijed kojeg nastaje
 tlak $p$
 \item geodetska visina $z$ mjeri se u odnosu na referentnu ravninu
 \item odabir referentne ravnine je zapravo proizvoljan
@@ -520,7 +520,7 @@ na referentnu ravninu) koja se očitava na piezometru
 \end{figure}
 \end{frame}
 
-\section{Primjena Bernoullijeve jednadľbe}
+\section{Primjena Bernoullijeve jednadžbe}
 
 \begin{frame}{Pitotova cijev}
 
