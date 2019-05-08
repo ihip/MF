@@ -1,23 +1,14 @@
 % Ivan Hip / 2019-05-07
 
-\documentclass[croatian]{beamer}
-
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{babel}
-
+\documentclass{beamer}
 \usetheme{Frankfurt}
 
+\input{../hrvatski}
+\input{../naslovnislajd}
+\naslov{Tečenje u cijevima}
+
 \begin{document}
-
-\title{Tečenje u cijevima}
-\author{Ivan Hip}
-\institute{Geotehnički fakultet, Sveučilište u Zagrebu}
-\date{\includegraphics[width=0.15\textwidth]{../CC-by-sa.pdf}}
-
-\begin{frame}
-  \titlepage
-\end{frame}
+\naslovnislajd
 
 \section{Uvod}
 \begin{frame}{Tečenje u cijevima (engl. \emph{pipe flow})}
@@ -129,7 +120,7 @@ orijentirane, ali imaju isti iznos
 F_{_{\Delta p}}=F_{vt}\quad\Rightarrow\quad\Delta p\,\pi r^{2}=\tau\,2\pi rL\quad\Rightarrow\quad\tau(r)=\frac{1}{2}\frac{\Delta p}{L}r
 \]
 
-Kako je omjer $\Delta p/L=konst.$ posmično naprezanje \foreignlanguage{english}{\textrm{$\tau$}}
+Kako je omjer $\Delta p/L=konst.$ posmično naprezanje $\tau$
 ovisi linearno o udaljenosti od osi cijevi: na osi je nula, a najveće
 naprezanje je na stijenki cijevi kada je $r=R$
 \[
@@ -263,14 +254,13 @@ integraciju za paraboličnu raspodjelu brzina $v(r)=v_{0}\left(1-\frac{r^{2}}{R^
 \[
 \bar{v}=\frac{2}{R^{2}}\intop_{0}^{R}v(r)rdr=\frac{2}{R^{2}}\intop_{0}^{R}v_{0}\left(1-\frac{r^{2}}{R^{2}}\right)rdr=
 \]
-\foreignlanguage{english}{\textrm{
 \[
 =\frac{2v_{0}}{R^{2}}\left(\intop_{0}^{R}rdr-\frac{1}{R^{2}}\intop_{0}^{R}r^{3}dr\right)=\frac{2v_{0}}{R^{2}}\left(\frac{R^{2}}{2}-\frac{1}{R^{2}}\frac{R^{4}}{4}\right)=
 \]
 \[
 =2v_{0}\left(\frac{1}{2}-\frac{1}{4}\right)=\frac{v_{0}}{2}
 \]
-}}
+
 \end{frame}
 
 \begin{frame}{Protok kod laminarnog tečenja: Hagen-Poiseuilleov zakon}
@@ -477,7 +467,7 @@ Formula Swamee-Jain
 \par\end{center}
 
 \begin{center}
-\includegraphics[height=0.8\paperheight]{slike/Moody_diagram}
+\includegraphics[height=0.76\paperheight]{slike/Moody_diagram}
 \par\end{center}
 
 \vspace{-0.1\paperheight}
