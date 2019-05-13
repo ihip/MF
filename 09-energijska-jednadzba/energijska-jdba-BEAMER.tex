@@ -1,6 +1,6 @@
 % Ivan Hip / 2019-05-08
 
-\documentclass{beamer}
+\documentclass[croatian]{beamer}
 \usetheme{Frankfurt}
 
 \input{../hrvatski}
@@ -145,14 +145,14 @@ dobijemo nešto što počinje ličiti na Bernoullijevu jednadžbu
 \begin{frame}{Modificirana Bernoullijeva jednadžba}
 
 \begin{itemize}
-\item zapravo, zbog $v_{_{A}}=v_{_{B}}=v_{_{0}}$ (jednadžba kontinuiteta!)
-možemo dodati i dinamičke tlakove koji nedostaju
+\item na strujnici koja prolazi središtem cijevi ($r = 0$) vrijedi $v_{_{A}}=v_{_{B}}=v_{_{0}}$
+pa možemo dodati i dinamičke tlakove koji nedostaju
 \[
 p_{_{A}}+\rho gz_{_{A}}+\frac{1}{2}\rho v_{_{A}}^{2}=p_{_{B}}+\rho gz_{_{B}}+\frac{1}{2}\rho v_{_{B}}^{2}+16\frac{\mu L}{D^{2}}v_{0}
 \]
 i sličnost s Bernoullijevom jednadžbom je potpuna
 \item međutim, s desne strane pojavio se još jedan dodatni član koji opisuje
-gubitak specifične mehaničke energije zbog viskoznog trenja
+\textbf{gubitak specifične energije zbog viskoznog trenja}
 \end{itemize}
 \begin{alertblock}{}
 Dakle, da bi se opisalo tečenje realne (stvarne, viskozne) tekućine
@@ -174,8 +174,8 @@ praktički nestlačive)
 \end{itemize}
 \begin{alertblock}{}
 \textcolor{blue}{\large{}\alert{Energijska jednadžba}} je modificirana
-Bernoullijeva jednadžba za tečenje stvarne, viskozne tekućine duž
-cjevovoda koja povezuje dva presjeka cijevi i služi za proračun cjevovoda.
+Bernoullijeva jednadžba koja opisuje stacionarno tečenje stvarne, viskozne tekućine u
+cjevovodu. Povezuje dva presjeka cijevi i služi za proračun cjevovoda.
 \end{alertblock}
 \end{frame}
 
@@ -260,8 +260,8 @@ ista, tj. kada je $v=konst.=\bar{v}$
 $\bar{v}$ tada i $\bar{\rho}_{Ek}$ postaje znatno veća od $\frac{1}{2}\rho\bar{v}^{2}$
 pa je to potrebno korigirati odgovarajućim koeficijentom koji se označava
 s $\alpha$, a naziva \alert{Coriolisov koeficijent}
-\item može se pokazati da je zbog parabolične raspodjele brzina kod laminarnog
-tečenja $\alpha=2$
+\item iz poznate parabolične raspodjele brzina kod laminarnog
+tečenja može se izračunati da je za laminarno tečenje $\alpha=2$
 \item međutim, kod turbulentnog tečenja tekućina se (osim tankog rubnog
 sloja) zbog transverzalnih komponenti brzine stalno miješa pa se gotovo
 sva tekućina na presjeku cijevi giba brzinom koja je približno jednaka
@@ -315,7 +315,7 @@ dolazi iteracijom.
 \item cijev kružnog presjeka moguće je opisati jednim parametrom: to je
 polumjer cijevi $R$
 \item pokazalo se da je cijevi proizvoljnog presjeka također moguće opisati
-jednim parametrom, takozvanim hidrauličkim polumjerom $R_{h}$
+jednim parametrom, takozvanim \textit{hidrauličkim polumjerom $R_{h}$}
 \end{itemize}
 \begin{alertblock}{Definicija: Hidraulički polumjer}
 \[
